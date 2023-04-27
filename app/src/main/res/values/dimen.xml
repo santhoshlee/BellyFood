@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="round_corner_radius">@dimen/_14sdp</dimen>
+    <dimen name="round_corner_radius_big">@dimen/_16sdp</dimen>
+    <dimen name="default_corner_radius">@dimen/_50sdp</dimen>
+    <dimen name="default_unpressed_glow_size">@dimen/_10sdp</dimen>
+    <dimen name="default_pressed_glow_size">@dimen/_12sdp</dimen>
+</resources>

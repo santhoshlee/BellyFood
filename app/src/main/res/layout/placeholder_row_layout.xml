@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_3sdp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_3sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            >
+
+            <LinearLayout
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_gravity="center"
+                    android:background="@color/placeholderColor"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_width="@dimen/_75sdp"
+                    android:layout_height="@dimen/_75sdp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_15sdp"
+                    android:background="@color/placeholderColor"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_15sdp"
+                    android:background="@color/placeholderColor"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    />
+
+
+                <LinearLayout
+
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_weight="0.33"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:layout_height="@dimen/_30sdp">
+
+                        <View
+                            android:id="@+id/view4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/placeholderColor"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.33"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:layout_height="@dimen/_30sdp">
+
+                        <View
+                            android:id="@+id/view5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/placeholderColor"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.33"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="@dimen/_30sdp">
+
+                        <View
+                            android:id="@+id/view6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/placeholderColor"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
+
